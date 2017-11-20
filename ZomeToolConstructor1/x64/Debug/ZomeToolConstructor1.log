@@ -1,0 +1,19 @@
+﻿已經開始建置於 2015/11/19 上午 06:42:42。
+     1>節點 2 (Build 目標) 上的專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor1\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj"。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp MathHelper.cpp Model.cpp ObjUser.cpp
+         main.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor1\zometoolconstructor1\stdafx.h(4): fatal error C1083: 無法開啟包含檔案: 'GL/glew.h': No such file or directory
+         MathHelper.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor1\zometoolconstructor1\stdafx.h(4): fatal error C1083: 無法開啟包含檔案: 'GL/glew.h': No such file or directory
+         Model.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor1\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor1\zometoolconstructor1\stdafx.h(4): fatal error C1083: 無法開啟包含檔案: 'GL/glew.h': No such file or directory
+         ObjUser.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor1\zometoolconstructor1\stdafx.h(4): fatal error C1083: 無法開啟包含檔案: 'GL/glew.h': No such file or directory
+         正在產生程式碼...
+     1>專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor1\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.90

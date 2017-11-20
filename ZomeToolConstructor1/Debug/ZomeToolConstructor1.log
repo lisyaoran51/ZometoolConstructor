@@ -1,0 +1,63 @@
+﻿已經開始建置於 2017/7/27 上午 10:45:57。
+     1>節點 2 (Build 目標) 上的專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ZomeToolConstructor1.vcxproj, ZomeToolConstructor10.vcxproj, ZomeToolConstructor2.vcxproj, ZomeToolConstructor3.vcxproj, ZomeToolConstructor4.vcxproj, ZomeToolConstructor5.vcxproj, ZomeToolConstructor6.vcxproj, ZomeToolConstructor7.vcxproj, ZomeToolConstructor9.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Libs\freeglut-3.0.0\include" /I"E:\Libs\glew-1.11.0\include" /I"E:\Libs\eigen-eigen-67e894c6cd8f" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StructureAnalyzer.cpp
+         StructureAnalyzer.cpp
+     1>e:\libs\eigen-eigen-67e894c6cd8f\eigen\src\core\arch\cuda\half.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(58): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(122): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(267): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(268): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(270): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(279): warning C4244: '-=' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(288): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(297): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(407): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(408): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(416): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(425): warning C4244: '-=' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(434): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(457): warning C4244: '=' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(462): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(489): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(508): warning C4244: 'return' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(608): warning C4244: '+=' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(662): warning C4244: '引數' : 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor11\zometoolconstructor1\structureanalyzer.cpp(663): warning C4244: '引數' : 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\Debug\ZomeToolConstructor11.exe" /INCREMENTAL /NOLOGO "E:\Libs\glew-1.11.0\lib\Debug\Win32\glew32d.lib" "E:\Libs\freeglut-3.0.0\build-2008\lib\Debug\freeglutd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\Debug\ZomeToolConstructor11.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\Debug\ZomeToolConstructor11.lib" /MACHINE:X86 Debug\Branch.obj
+         Debug\Cone.obj
+         Debug\Constructor.obj
+         Debug\FailurePointFixer.obj
+         Debug\Grid.obj
+         Debug\main.obj
+         Debug\MathHelper.obj
+         Debug\MatrixComputer.obj
+         Debug\Model.obj
+         Debug\ObjFunction.obj
+         Debug\ObjUser.obj
+         Debug\OuterCone.obj
+         Debug\Plane.obj
+         Debug\Point.obj
+         Debug\MyPolygon.obj
+         Debug\PolarCoordinates.obj
+         Debug\Polyhedron.obj
+         Debug\PolynomialList.obj
+         Debug\Segment.obj
+         Debug\Segmenter.obj
+         Debug\Socket.obj
+         Debug\SplitSurface.obj
+         Debug\StaticZomeDirection.obj
+         Debug\StructureAnalyzer.obj
+         Debug\VirtualForce.obj
+         Debug\ZomeDirection.obj
+         Debug\ZomeGenerator.obj
+         Debug\ZomeStructure.obj
+         ZomeToolConstructor1.vcxproj -> E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\Debug\ZomeToolConstructor11.exe
+     1>專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor11\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.06

@@ -1,0 +1,516 @@
+﻿已經開始建置於 2016/8/17 下午 11:53:22。
+     1>節點 2 (Build 目標) 上的專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj"。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Libs\glew-1.11.0\include" /I"E:\Libs\freeglut-3.0.0\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Branch.cpp Cone.cpp Constructor.cpp Grid.cpp MathHelper.cpp Model.cpp MyPolygon.cpp ObjFunction.cpp ObjUser.cpp OuterCone.cpp Plane.cpp Point.cpp Polyhedron.cpp Segment.cpp Segmenter.cpp Socket.cpp SplitSurface.cpp ZomeDirection.cpp ZomeGenerator.cpp main.cpp
+         Branch.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Branch.cpp(27): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(28): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(108): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(124): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(162): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(246): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(249): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(758): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(761): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(764): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(767): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(776): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(779): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(782): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(783): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(786): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(787): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(790): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(791): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(794): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(795): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(798): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(799): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(802): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(803): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(806): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(807): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(810): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(811): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(814): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(815): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(847): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(849): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(851): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(855): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(857): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(859): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(875): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Branch.cpp(1083): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Branch.cpp(1086): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Cone.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Cone.cpp(193): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Cone.cpp(197): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Cone.cpp(201): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Cone.cpp(218): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(223): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(228): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(233): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(238): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(243): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(250): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(255): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(260): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(265): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(270): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(275): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(282): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(287): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(292): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(297): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(302): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(307): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(314): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(319): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(324): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(329): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(334): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(339): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Cone.cpp(468): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Cone.cpp(472): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Cone.cpp(476): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Constructor.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Constructor.cpp(119): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(110): warning C4101: 'firstScalar' : 未參考的區域變數
+     1>Constructor.cpp(143): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(159): warning C4101: 'firstParameter' : 未參考的區域變數
+     1>Constructor.cpp(243): warning C4244: '正在初始化' : 將 'const int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(250): warning C4244: '引數' : 將 'float' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(252): warning C4244: '引數' : 將 'float' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(257): warning C4244: '引數' : 將 'float' 轉換為 'const int'，由於類型不同，可能導致資料遺失
+     1>Constructor.cpp(691): warning C4018: '<' : signed/unsigned 不相符
+     1>Constructor.cpp(790): warning C4018: '<' : signed/unsigned 不相符
+         Grid.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+         MathHelper.cpp
+     1>MathHelper.cpp(123): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(124): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(126): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(127): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(128): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(130): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(131): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(132): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(134): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(135): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(136): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(475): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(633): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(634): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(672): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>MathHelper.cpp(820): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(821): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(822): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>MathHelper.cpp(833): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Model.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+         MyPolygon.cpp
+     1>MyPolygon.cpp(334): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>MyPolygon.cpp(365): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         ObjFunction.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>ObjFunction.cpp(46): warning C4101: 'lastGrid' : 未參考的區域變數
+     1>ObjFunction.cpp(77): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(84): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(93): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(113): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(115): warning C4305: '正在初始化' : 從 'int' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ObjFunction.cpp(117): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(121): warning C4244: '正在初始化' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(125): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(141): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(182): warning C4804: '>' : 作業中不安全的使用類型 'bool'
+     1>ObjFunction.cpp(215): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(240): warning C4305: '正在初始化' : 從 'int' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ObjFunction.cpp(243): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(247): warning C4244: '正在初始化' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(251): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(273): warning C4305: '正在初始化' : 從 'int' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ObjFunction.cpp(277): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(335): warning C4804: '>' : 作業中不安全的使用類型 'bool'
+     1>ObjFunction.cpp(449): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(495): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1211): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1216): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1220): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1225): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1229): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1234): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1238): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1288): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1293): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1297): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1302): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1306): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1311): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1315): warning C4244: '=' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1342): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1360): warning C4244: '正在初始化' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1366): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1486): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1525): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1530): warning C4244: '正在初始化' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ObjFunction.cpp(1643): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1674): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjFunction.cpp(1787): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         ObjUser.cpp
+     1>ObjUser.cpp(6): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(11): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(16): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(32): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(38): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(43): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(51): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(72): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(78): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(83): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(113): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(124): warning C4101: 'Temp' : 未參考的區域變數
+     1>ObjUser.cpp(265): warning C4018: '<' : signed/unsigned 不相符
+     1>ObjUser.cpp(156): warning C4101: 'Temp' : 未參考的區域變數
+         OuterCone.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>OuterCone.cpp(553): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(577): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(580): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(583): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(586): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(589): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(590): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(593): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(594): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(597): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(600): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(601): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(604): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(605): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(608): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(609): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(612): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(613): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(616): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(619): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(622): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(623): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(626): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(627): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(630): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(631): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(634): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(637): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(638): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(641): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(644): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(645): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(648): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(649): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(653): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(654): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(658): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(659): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(699): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(701): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(703): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(707): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(709): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(711): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(715): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(717): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(719): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(750): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>OuterCone.cpp(1031): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(1143): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>OuterCone.cpp(1144): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Plane.cpp
+     1>Plane.cpp(295): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Plane.cpp(304): warning C4244: '正在初始化' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Plane.cpp(368): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Plane.cpp(369): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Plane.cpp(370): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Point.cpp
+         Polyhedron.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Polyhedron.cpp(378): warning C4018: '<' : signed/unsigned 不相符
+     1>Polyhedron.cpp(388): warning C4018: '<' : signed/unsigned 不相符
+     1>Polyhedron.cpp(449): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Polyhedron.cpp(465): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Polyhedron.cpp(498): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         Segment.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+         Segmenter.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Segmenter.cpp(952): warning C4018: '<' : signed/unsigned 不相符
+         Socket.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>Socket.cpp(92): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Socket.cpp(116): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(198): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>Socket.cpp(223): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(304): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(324): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(407): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(427): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(530): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>Socket.cpp(634): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         SplitSurface.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>SplitSurface.cpp(41): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>SplitSurface.cpp(42): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>SplitSurface.cpp(344): warning C4018: '<' : signed/unsigned 不相符
+     1>SplitSurface.cpp(349): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>SplitSurface.cpp(351): warning C4018: '<' : signed/unsigned 不相符
+     1>SplitSurface.cpp(374): warning C4018: '<' : signed/unsigned 不相符
+     1>SplitSurface.cpp(378): warning C4018: '<' : signed/unsigned 不相符
+     1>SplitSurface.cpp(393): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         ZomeDirection.cpp
+     1>ZomeDirection.cpp(18): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(19): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(20): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(21): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(24): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(25): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(26): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(27): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(30): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(31): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(32): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(33): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(35): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(36): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(37): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(38): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(41): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(42): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(43): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(44): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(46): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(47): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(48): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(49): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(53): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(53): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(54): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(54): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(55): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(55): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(56): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(56): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(59): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(59): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(60): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(60): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(61): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(61): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(62): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(62): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(65): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(65): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(66): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(66): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(67): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(67): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(68): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(68): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(72): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(72): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(73): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(73): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(74): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(74): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(75): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(75): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(78): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(78): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(79): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(79): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(80): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(80): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(81): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(81): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(84): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(84): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(85): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(85): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(86): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(86): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(87): warning C4244: '引數' : 將 'const double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(87): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(90): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(91): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(92): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(93): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(94): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(95): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(96): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(97): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(125): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(149): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(150): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(156): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(158): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(159): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(161): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>ZomeDirection.cpp(161): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(162): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(164): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>ZomeDirection.cpp(164): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(166): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(168): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>ZomeDirection.cpp(169): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(171): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>ZomeDirection.cpp(171): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(172): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(173): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(175): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>ZomeDirection.cpp(175): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(176): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(187): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(188): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(190): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(191): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(194): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(195): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(196): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(197): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(201): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(202): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(203): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(204): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(207): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(208): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(209): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(212): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(214): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(215): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(216): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(217): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(218): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(219): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(220): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(221): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(238): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(239): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(240): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(244): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(245): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(246): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(250): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(251): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(252): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(262): warning C4305: '=' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeDirection.cpp(263): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(264): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(268): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(269): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(270): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(274): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(275): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(276): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeDirection.cpp(375): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+         ZomeGenerator.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>ZomeGenerator.cpp(41): warning C4101: 'lastCone' : 未參考的區域變數
+     1>ZomeGenerator.cpp(96): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(103): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(118): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(133): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(134): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(135): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(136): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(137): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(138): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(164): warning C4305: '正在初始化' : 從 'int' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(167): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(171): warning C4244: '正在初始化' : 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(175): warning C4244: '=' : 將 'int' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(197): warning C4305: '正在初始化' : 從 'int' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(201): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(259): warning C4804: '>' : 作業中不安全的使用類型 'bool'
+     1>ZomeGenerator.cpp(387): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(496): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(961): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(1065): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(1084): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(1085): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(1100): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(1125): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(1210): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(1303): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(1991): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(1993): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>ZomeGenerator.cpp(2001): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(2085): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(2086): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(2680): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(2682): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(2689): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(2759): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>ZomeGenerator.cpp(2760): warning C4018: '<' : signed/unsigned 不相符
+     1>ZomeGenerator.cpp(2834): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+         main.cpp
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\Model.h(4): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(377): warning C4172: 傳回區域變數或暫存的位址
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(401): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(410): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(420): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(458): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(467): warning C4244: '+=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(471): warning C4244: '-=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(487): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(504): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(545): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(554): warning C4244: '+=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(558): warning C4244: '-=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(574): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(591): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(639): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(649): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(663): warning C4018: '<' : signed/unsigned 不相符
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(751): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(781): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(875): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(924): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(925): warning C4244: '=' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(953): warning C4305: '正在初始化' : 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\main.h(1001): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\Release\ZomeToolConstructor7.exe" /NOLOGO "E:\Libs\glew-1.11.0\lib\Release\Win32\glew32.lib" "E:\Libs\freeglut-3.0.0\build-2013\lib\Debug\freeglutd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\Release\ZomeToolConstructor7.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\Release\ZomeToolConstructor7.lib" /MACHINE:X86 /SAFESEH Release\Branch.obj
+         Release\Cone.obj
+         Release\Constructor.obj
+         Release\Grid.obj
+         Release\main.obj
+         Release\MathHelper.obj
+         Release\Model.obj
+         Release\ObjFunction.obj
+         Release\ObjUser.obj
+         Release\OuterCone.obj
+         Release\Plane.obj
+         Release\Point.obj
+         Release\MyPolygon.obj
+         Release\Polyhedron.obj
+         Release\Segment.obj
+         Release\Segmenter.obj
+         Release\Socket.obj
+         Release\SplitSurface.obj
+         Release\ZomeDirection.obj
+         Release\ZomeGenerator.obj
+         正在產生程式碼
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\zomegenerator.cpp(1671): warning C4715: 'ZomeGenerator::ExportNearestPointOnSurface' : 不是所有控制路徑都傳回值
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\plane.cpp(688): warning C4715: 'Plane::IsInside' : 不是所有控制路徑都傳回值
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\branch.cpp(862): warning C4715: 'BranchEnd::SelectConstructedHole' : 不是所有控制路徑都傳回值
+     1>e:\users\tsaijiayu\documents\visual studio 2013\projects\zometoolconstructor7\zometoolconstructor1\polyhedron.cpp(137): warning C4715: 'PolyhedronPoint::GetPolyhedronFace' : 不是所有控制路徑都傳回值
+         已完成程式碼產生
+         ZomeToolConstructor1.vcxproj -> E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\Release\ZomeToolConstructor7.exe
+     1>專案 "E:\Users\TsaiJiaYu\documents\visual studio 2013\Projects\ZomeToolConstructor7\ZomeToolConstructor1\ZomeToolConstructor1.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:23.96

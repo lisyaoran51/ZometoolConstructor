@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="原始程式檔\資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjUser.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ZomeDirection.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFunction.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ZomeGenerator.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Cone.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="OuterCone.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Polyhedron.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Segmenter.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPolygon.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitSurface.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Branch.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolarCoordinates.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ZomeStructure.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FailurePointFixer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualForce.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PolynomialList.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticZomeDirection.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureAnalyzer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixComputer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="buddha.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjUser.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ZomeDirection.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFunction.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLibrary.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ZomeGenerator.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Cone.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="OuterCone.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Polyhedron.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Segmenter.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPolygon.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitSurface.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Branch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolarCoordinates.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ZomeStructure.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FailurePointFixer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualForce.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PolynomialList.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticZomeDirection.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureAnalyzer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixComputer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fsh">
+      <Filter>原始程式檔\資源檔</Filter>
+    </None>
+    <None Include="vertexShader.vsh">
+      <Filter>原始程式檔\資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="日誌.txt">
+      <Filter>原始程式檔\資源檔</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
